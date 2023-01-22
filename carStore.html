@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>GT Car Store</title>
+    <link rel="stylesheet" type="text/css" href="carStyle.css">
+    <script src="carScript.js" defer> </script>
+
+
+</head>
+
+<body>
+
+    <h1 id="conTitle">Configure Your GT Super SportsCar</h1>
+
+    <div id="grid-content">
+
+        <div id="configBox">
+            <div class="titleBox">
+                <h2 class="titleText">CONFIGURATION</h2>
+            </div>
+
+            <div class="TextBox">
+                <div>
+                    <form class="radioForm first">
+                        <label> <input value="17790" name="config" type="radio" checked="checked"> GT Manual</label>
+                        <label><input value="18590" name="config" type="radio"> GT Automatic</label>
+                        <label> <input value="22455" name="config" type="radio"> GT-S Manual</label>
+                        <label> <input value="23155" name="config" type="radio"> GT-S Sportshift</label>
+                    </form>
+                </div>
+
+                <div class="PriceBox">
+                    <p>
+                        $17,790.00
+                    </p>
+                    <p>
+                        $18,590.00
+                    </p>
+                    <p>
+                        $22,455.00
+                    </p>
+                    <p>
+                        $23,155.00
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="facBox">
+            <div class="titleBox">
+                <h2 class="titleText">FACTORY OPTIONS</h2>
+            </div>
+            <div class="TextBox">
+                <form class="radioForm second">
+                    <label> <input value="1235" name="factory" type="radio"> Option Combo #1</label>
+
+                    <ul>
+                        <li>Power Windows, Doors, Cruise Control</li>
+                    </ul>
+                    <label><input value="3354" name="factory" type="radio"> Option Combo #2</label>
+                    <ul>
+                        <li>Rear Spoiler and Fog Lamps</li>
+                    </ul>
+                    <ul>
+                        <li>Keyless Entry</li>
+                    </ul>
+                    <ul>
+                        <li>Power Tilt & Slide Moonroof</li>
+                    </ul>
+                    <ul>
+                        <li>Power Windows, Doors, Cruise Control</li>
+                    </ul>
+
+                    <label> <input value="0" name="factory" type="radio" checked="checked"> No Combo</label>
+                </form>
+                <div>
+                    <p id="priceTop">
+                        $1235.00
+                    </p>
+                    <p id="priceBig">
+                        $3354.00
+                    </p>
+                    <p id="priceNull">
+                        $0
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div id="dealBox">
+            <div class="titleBox">
+                <h2 class="titleText">DEALER OPTIONS</h2>
+            </div>
+            <div class="TextBox">
+                <form class="radioForm third">
+                    <label> <input value="550" name="dealer" type="checkbox"> Upgraded Stereo System</label>
+                    <label><input value="399" name="dealer" type="checkbox"> VIP Security System</label>
+                    <label> <input value="295" name="dealer" type="checkbox"> Auto-Dimming Mirror</label>
+                </form>
+
+                <div class="PriceBox">
+                    <p>
+                        $550.00
+                    </p>
+                    <p>
+                        $399.00
+                    </p>
+                    <p>
+                        $295.00
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="priceBox">
+            <div class="titleBox">
+                <h2 class="titleText">TOTAL PRICE</h2>
+            </div>
+            <div class="TextBox">
+                <input id="textPrice" type="text">
+                <input id="textButton" type="button" value="Calculate Total">
+            </div>
+        </div>
+
+        <div id="colorBox">
+            <div class="titleBox">
+                <h2 class="titleText">CHOOSE A COLOR</h2>
+            </div>
+            <div class="TextBox">
+                <select id="slider" name="sliderbtn">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="silver">Silver</option>
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+
+                </select>
+                <img id="carImage" src="red.jpg" alt="Display of Selected Car">
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

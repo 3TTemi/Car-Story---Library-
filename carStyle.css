@@ -1,0 +1,143 @@
+#grid-content {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: grid;
+    align-content: center;
+
+
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 180px 260px 160px 100px;
+    column-gap: 30px;
+    row-gap: 5px;
+
+}
+
+#configBox {
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#facBox {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dealBox {
+    grid-column: 1;
+    grid-row: 3;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#priceBox {
+    grid-column: 1;
+    grid-row: 4;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#colorBox {
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#conTitle {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.titleBox {
+    width: 97%;
+    height: 40px;
+    background-color: #808080;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+
+}
+
+.radioForm {
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+
+}
+
+.radioForm label {
+    margin-bottom: 5px;
+}
+
+.TextBox {
+    display: flex;
+    height: 100%;
+    width: 97%;
+    /* border: 1px solid green; */
+    align-items: center;
+    /* margin-left: 20px; */
+    justify-content: space-between;
+}
+
+.PriceBox p {
+    margin: 10px;
+}
+
+
+
+ul, li
+{
+    margin: 0px;
+}
+#priceBig
+{
+    margin-bottom: 100px;
+}
+#priceTop
+{
+    margin-bottom: 30px;
+}
+#priceNull
+{
+    text-align: end;
+}
+
+#textPrice, #textButton
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#slider
+{
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
